@@ -41,7 +41,7 @@ const convertingToCamelCase = (snake_case_array) => {
 const convertingToCamelCaseDirectorTable = (snake_case_array) => {
   const camelCaseArray = snake_case_array.map((eachObj) => {
     const camelCaseObj = {
-      directorID: eachObj.director_id,
+      directorId: eachObj.director_id,
       directorName: eachObj.director_name,
     };
     return camelCaseObj;
